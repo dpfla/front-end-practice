@@ -1,0 +1,152 @@
+:root{
+    --naver-color:  rgba(3, 199, 90);
+    --background-color: #f5f6f7;
+    --accent-color: #d49466
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: var(--background-color);
+}
+
+div{
+    display: block;
+}
+
+header, section, footer{
+    width: 768px;
+    margin: 0 auto;
+}
+
+.select_lang{
+    margin: 15px;
+}
+
+.select_lang select{
+    padding: 5px;
+    background-color: var(--background-color);
+    border-color: rgb(212, 212, 212);
+    border: 1 solid;
+    margin-left: 90%;
+}
+
+.naver_logo{
+    width: 460px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+.container{
+    width: 460px;
+    margin: 0 auto;
+}
+
+input{
+    width: 100%;
+    height: 50px;
+    border: 0.5px  solid ;
+    border-color: rgba(212, 212, 212);
+    margin-bottom: 8px;
+    padding: 15px;
+    color: gray;
+}
+
+#naver_password:focus, #naver_username:focus{
+    outline: 0.5px solid var(--naver-color);
+}
+
+button{
+    width: 100%;
+    height: 55px;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+button:focus{
+    outline-style: none;
+}
+
+.signin_button button{
+    background-color: var(--naver-color);
+    border-color: var(--naver-color);
+    border-style: none;
+    color: rgba(243, 243, 243);
+}
+
+.stay_signed_in .icon{
+    font-size: 23px;
+    display: inline;
+    color: rgb(165, 165, 165);
+}
+
+.stay_signed_in .label{
+    font-size: 15px;
+    vertical-align: center;
+    display: inline;
+}
+.stay_signed_in{
+    padding-bottom: 15px;
+    border-bottom: 0.5px solid rgba(212, 212, 212);
+}
+.easier_login_header h2{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.easier_login_header{
+    margin-top: 33px;
+}
+.wayto_login div button{
+    font-size: 23px;
+    text-align: left;
+    padding: 10px 15px;
+    border: 0.5px  solid ;
+    border-color: rgba(212, 212, 212);
+    background-color: white;
+}
+
+.easier_login_label{
+    padding: 12px;
+    font-size: 18px;
+}
+
+#qrcode_img{
+    color: var(--naver-color);
+}
+#facebook_img{
+    color: rgba(66, 103, 178);
+}
+#line_img{
+    color: var(--naver-color);
+}
+
+.forgot{
+    font-size: 15px;
+    color: rgb(94, 94, 94);
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer span img{
+    width: 8%;
+    height: 8%;
+    display: inline;
+}
+
+footer span{
+    text-align: center;
+    font-size: 11px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
